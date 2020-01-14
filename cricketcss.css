@@ -6,10 +6,10 @@ body{
 }
 .gamename{
     font-size: 70px;
-    color: black;
+    color: rgb(49, 47, 47);
     text-align: center;
     padding: 60px;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255,255,255,.5)), url("image.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(255,255,255,0.8)), url("image.jpg");
     background-repeat: no-repeat;
     background-size: cover;   
     border-radius: 25px;
@@ -20,7 +20,7 @@ input{
 }
 button{
     background-color: white;
-    border: 5px solid rgb(25, 25, 49);
+    border: 5px solid blanchedalmond;
     margin-left: 20px;
     padding:0px 20px 0px 20px;
     border-radius: 20px;
