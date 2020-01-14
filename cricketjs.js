@@ -47,7 +47,12 @@ function myFunction(val) {
                 Botscore.textContent=runs2;
                 result(runs1,runs2,'batting');
             }else{
-                Botscore.textContent=runs2;
+                if(runs2>runs1){
+                    result(runs1,runs2,'batting');  
+                }else{
+                    Botscore.textContent=runs2;
+                }
+                
             }
         }
         else{
@@ -76,7 +81,12 @@ function myFunction(val) {
                 yourscore.textContent=runs1;
                 result(runs1,runs2,'bowling');
             }else{
-                yourscore.textContent=runs1;
+                if(runs1>runs2){
+                    result(runs1,runs2,'bowling');  
+                }else{
+                    yourscore.textContent=runs1;
+                }
+                
             }
         }
         else{
@@ -118,7 +128,7 @@ function bowling(val){
         }
     }
 function randomnumber(){
-        var r = Math.floor(Math.random() * 6);
+        var r = Math.floor(Math.random() * 6)+1;
         return r;
     }
 function result(a,b,c){
