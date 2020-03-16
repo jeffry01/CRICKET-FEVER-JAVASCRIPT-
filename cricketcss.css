@@ -24,6 +24,7 @@ button{
     margin-left: 20px;
     padding:0px 20px 0px 20px;
     border-radius: 20px;
+    width: 10%;
 }
 .stripe{
     text-align: center; 
@@ -43,4 +44,7 @@ li{
 }
 .scorecard{
     text-align: center;
+}
+.live{
+    margin: 10px;
 }
